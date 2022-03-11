@@ -2,9 +2,9 @@
 ___
 _Инструменты:_
 
-![Python](https://img.shields.io/badge/Python-cornsilk?style=plastic&logo=Python)
-![Selenium](https://img.shields.io/badge/Selenium-cornsilk?style=plastic&logo=Selenium)
-![Pytest](https://img.shields.io/badge/PyTest-cornsilk?style=plastic&logo=PyTest)
+![Python](https://img.shields.io/badge/Python-white?style=plastic&logo=Python)
+![Selenium](https://img.shields.io/badge/Selenium-white?style=plastic&logo=Selenium)
+![Pytest](https://img.shields.io/badge/PyTest-white?style=plastic&logo=PyTest)
 ___
 _Установка версий:_
 
