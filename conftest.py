@@ -24,5 +24,5 @@ def browser(request):
     yield driver
 
     # Установите ожидание закрытия браузера 
-    time.sleep(3)
+    time.sleep(2)
     driver.quit()
