@@ -7,11 +7,14 @@ class LoginPageLocators():
 
 
 class BasketLocators():
+    BTN_GO_TO_BASKET = (By.CSS_SELECTOR, ".btn-group > a")
     BTN_BASKET = (By.CLASS_NAME, "btn-add-to-basket")
     PRODUCT_NAME = (By.CSS_SELECTOR, ".product_main > h1")
     PROD_NAME_MESSAGE = (By.XPATH, "//*[@id='messages']/div[1]/div/strong")
     PRODUCT_PRICE = (By.CSS_SELECTOR, ".product_main > p.price_color")
     PROD_PRICE_MESSAGE = (By.CSS_SELECTOR, ".alertinner > p > strong")
+    PROD_IN_BASKET = (By.CSS_SELECTOR, ".basket_summary")
+    EMPTY_BASKET = (By.CSS_SELECTOR, "#content_inner > p")
 
 
 class ProductPageLocators():
@@ -20,4 +23,3 @@ class ProductPageLocators():
 
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-    # LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
