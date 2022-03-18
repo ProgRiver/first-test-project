@@ -9,6 +9,6 @@ class BasketPage(BasePage):
     
 
     def sould_be_empty_basket(self):
-        """Должна быть пустая корзина"""
+        """Есть сообщение, что корзина пустая"""
         assert self.is_element_present(*BasketLocators.EMPTY_BASKET), "[!] No empty basket [!]"
     
