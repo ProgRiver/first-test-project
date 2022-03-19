@@ -78,3 +78,9 @@ class BasePage:
     def should_be_go_to_basket_page(self):
         """Проверка наличия кнопки в шапке сайта для перехода на страницу корзины"""
         assert self.is_element_present(*BasketLocators.BTN_GO_TO_BASKET), "[!] Button basket is not presented [!]"
+    
+
+    def should_be_authorized_user(self):
+        """Проверка, что пользователь залогинен"""
+        assert self.is_element_present(*BasePageLocators.USER_ICON), "User icon is not presented," \
+                                                                     " probably unauthorised user"
